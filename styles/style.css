@@ -1,3 +1,7 @@
+:root {
+  --color-white: #fff;
+}
+
 *,
 *::before,
 *::after {
@@ -110,10 +114,9 @@ ol {
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
   overflow-y: scroll;
-  inline-size: 399px;
-  min-block-size: 298px;
+  width: 399px;
+  height: 298px;
 }
 
 .content__list-item {
